@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
     "test": "jest --watchAll",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [],
   "author": "Imad Machi",
@@ -40,6 +41,7 @@
     "autoprefixer": "^10.2.3",
     "browserslist": "^4.16.1",
     "classnames": "^2.2.6",
+    "express": "^4.17.1",
     "normalize.css": "^8.0.1",
     "postcss": "^8.2.4",
     "prop-types": "^15.7.2",
