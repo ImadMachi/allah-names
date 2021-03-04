@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without throwing an error 1`] = `
+<div>
+  <h1
+    className="title"
+  >
+    {وَلِلَّهِ الْأَسْمَاءُ الْحُسْنَى فَادْعُوهُ بِهَا}
+  </h1>
+  <span
+    className="names-list"
+  >
+    <Link
+      className="names-list__name"
+      key="N1"
+      to="/N1"
+    >
+      الله
+    </Link>
+    <Link
+      className="names-list__name"
+      key="N2"
+      to="/N2"
+    >
+      الرحمن
+    </Link>
+    <Link
+      className="names-list__name"
+      key="N3"
+      to="/N3"
+    >
+      الرحيم
+    </Link>
+  </span>
+</div>
+`;

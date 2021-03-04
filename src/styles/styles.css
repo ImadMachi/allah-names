@@ -1,0 +1,14 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+* {
+  direction: rtl;
+  box-sizing: border-box;
+}
+
+@import "./components/_header.css";
+@import "./components/_names-list.css";
+@import "./components/_name-page.css";

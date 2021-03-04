@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without throwing an error 1`] = `
+<div
+  className="name-page"
+>
+  <div
+    className="name-page__name"
+  >
+    الله
+  </div>
+  <p
+    className="name-page__description"
+  >
+    الاسم الذي يدلّ على ذات الله -تعالى- الجامعة لصفات ألوهيّته.
+  </p>
+  <Link
+    className="name-page__home"
+    to="/"
+  >
+    العودة إلى القائمة
+  </Link>
+</div>
+`;

@@ -1,0 +1,27 @@
+.name-page {
+  text-align: center;
+  padding: 2rem;
+}
+.name-page__name {
+  display: inline-block;
+  font-size: 10rem;
+  font-weight: bold;
+  padding: 5rem;
+  background-color: #aaa;
+  color: #333;
+}
+
+.name-page__description {
+  font-size: 2.5rem;
+  max-width: 70rem;
+  margin: 2rem auto;
+}
+
+.name-page__home {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #ccc;
+  background-color: #333;
+  padding: 1rem;
+  border-radius: 2rem;
+}
